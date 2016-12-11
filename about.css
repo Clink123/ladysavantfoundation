@@ -36,35 +36,25 @@ body{
 #main h1{
     margin:0;
 }
+h3{
+    padding-bottom:2vh;
+}
+#banner {
+    background-color:#E5E5E5;
+    margin: 0;
+    text-align: center;
+    color: #A2A9AF;
+    overflow:auto;
+}
+
+#banner h1 {
+    padding-top: 5vh;
+    padding-bottom:5vh;
+    margin: 0;
+    color: #A2A9AF;
+}
 #logo{
     padding-bottom:3vh;
-}
-#slideshow{
-    height:55vh;
-}
-.slider{
-    z-index:1;
-    padding-bottom:10vh;
-    padding-left:15%;
-    padding-right:15%;
-}
-.slider .slides li{
-    height:50vh;
-}
-.slider .slides{
-    background-color:#E5E5E5;
-}
-.slider .slides li img {
-    background-size:70% auto;
-    background-repeat: no-repeat;
-    background-color:#E5E5E5;
-}
-#mission{
-    text-align:left;
-    padding-top:6em;
-}
-#mission h4{
-    margin:0;
 }
 footer.page-footer{
     background-color: #A2A9AF;
