@@ -1,8 +1,79 @@
 <html>
+
 <head>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slider({
+                full_width: false
+                , indicators: false
+                , interval: 3000
+            });
+        });
+        $(document).ready(function () {
+            $('.materialboxed').materialbox();
+        });
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="landing.css" rel="stylesheet">
+    <title>Lady Savant Foundation</title>
 </head>
+
 <body>
-    <h1>Under COnstruction, Please Check Back Soon!</h1>
+    <nav>
+        <div id="nav" class="nav-wrapper z-depth-3">
+            <a href="index.html" class="brand-logo">Lady Savant Foundation</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+            <div id="slogandiv">
+                <p id="slogan">Empowering The Next Generation</p>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+        <div id="logo">
+            <h1>Lady Savant Foundation</h1>
+            <h4>Empowering The Next Generation</h4>
+        </div>
+        <div id="slideshow">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="http://lorempixel.com/580/250/nature/1">
+                    </li>
+                    <li>
+                        <img src="http://lorempixel.com/580/250/nature/2">
+                    </li>
+                    <li>
+                        <img src="http://lorempixel.com/580/250/nature/3">
+                    </li>
+                    <li>
+                        <img src="http://lorempixel.com/580/250/nature/4">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="mission" class="container">
+            <div class="row">
+                <img class="col s4" width="30%" src="sample1.jpg">
+                <div class="col s8">
+                    <span><h4>Mission for 2017</h4>
+                    <h4>Empowering the Next Generation: EDUCATION</h4></span>
+                </div>
+            </div>
+            <div class="row">
+                <p class="flow-text">The Lady Savant Foundation’s first fundraising endeavor as a non-profit will aim to change the lives of rural Cambodian children by building a school. The school will be a lower secondary school and is about a 2 hour drives from Phnom Penh (the Taney village is in the Kampong Speu province in the district of Phnom Srouch). The school will have approx 200 children: equal amounts of boys and girls. If we meet the financial goal to build the school, we can enhance the school thru various means such as an English program, computer program, vegetable garden (that will feed the children) and also solar panels for energy.</p>
+                <p class="flow-text">Equally as important, we will be implementing a program directed at the young girls in our school to help fight the very real and very serious crime of sex trafficking. Trafficking of girls and women is one of the most serious human rights problems facing Cambodia today. The Lady Savant Foundation will aim to prevent the trafficking of Cambodian girls from poverty-stricken homes for sexual and labor exploitation through an incentive program to stay in school and receive additional vocational training that will provide employment, income, and social and political empowerment.</p>
+                <p class="flow-text">We are extremely honored and excited to get this project underway, but first we need YOUR HELP!</p>
+                <p class="flow-text">Our Inaugural Gala fundraiser will be held on Thursday, May 4th at the Arcola Golf Club in Paramus. Details to follow here on our website! Hope to see you all there! </p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

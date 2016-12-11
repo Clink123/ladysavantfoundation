@@ -1,0 +1,21 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:#E5E5E5;
+    padding-top:5vh;
+    text-align:center;
+    color:#A2A9AF;
+}
+.btn{
+    background-color:#A2A9AF;
+}
+.btn:hover{
+    background-color:#F1DBDA;
+}
+h4{
+    padding-bottom:8vh;
+}
+h3{
+    padding-bottom:3vh;
+}
