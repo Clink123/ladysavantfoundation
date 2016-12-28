@@ -36,15 +36,19 @@ body{
 #main h1{
     margin:0;
 }
-h3{
-    padding-bottom:2vh;
+.card{
+    text-align:left;
+}
+#events{
+    padding-left:25%;
+    padding-right:25%;
+    margin:0;
 }
 #banner {
     margin: 0;
     text-align: center;
     overflow:auto;
 }
-
 #banner h1 {
     padding-top: 5vh;
     padding-bottom:5vh;

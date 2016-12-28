@@ -2,10 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    background-color:#E5E5E5;
+    background-color: white;
 }
 #nav{
-    background-color: #A2A9AF;
+    background-color: rgb(218, 170, 187);
     padding-left:2%;
     height:5em;
     z-index:1800;
@@ -28,10 +28,13 @@ body{
     padding-top:0.4em;
 }
 #main{
-    background-color:#E5E5E5;
-    color:#A2A9AF;
+    background-color:white;
+    color:#212121;
     text-align:center;
     padding-top:5vh;
+}
+#slogan2{
+    color:#757575;
 }
 #main h1{
     margin:0;
@@ -52,12 +55,12 @@ body{
     height:50vh;
 }
 .slider .slides{
-    background-color:#E5E5E5;
+    background-color:white;
 }
 .slider .slides li img {
     background-size:70% auto;
     background-repeat: no-repeat;
-    background-color:#E5E5E5;
+    background-color:white;
 }
 #mission{
     text-align:left;
@@ -66,15 +69,27 @@ body{
 #mission h4{
     margin:0;
 }
+#missiontitle{
+    padding-bottom:4vh;
+    padding-left:0;
+}
+#mission img{
+    padding-right:5%;
+    padding-left:0;
+    padding-bottom:3vh;
+    
+}
+#mission p{
+}
 footer.page-footer{
-    background-color: #A2A9AF;
+    background-color: rgb(218, 170, 187);
 }
 #learnmore{
     padding-bottom:9vh;
 }
 .btn{
-    background-color:#A2A9AF;
+    background-color:#7C4DFF;
 }
 .btn:hover{
-    background-color:#F1DBDA;
+    background-color:#7C4DFF;
 }
