@@ -39,6 +39,9 @@ body{
 h3{
     padding-bottom:2vh;
 }
+#email{
+    text-align: left;
+}
 #banner {
     margin: 0;
     text-align: center;
@@ -52,6 +55,8 @@ h3{
 }
 #banner img{
     height:25vh;
+    padding-top:3vh;
+    padding-bottom:3vh;
 }
 footer.page-footer{
     background-color: rgb(218, 170, 187);
