@@ -36,8 +36,9 @@ body{
 #main h1{
     margin:0;
 }
-h3{
-    padding-bottom:2vh;
+#soon{
+    padding-bottom:8vh;
+    padding-top:8vh;
 }
 #banner {
     margin: 0;
