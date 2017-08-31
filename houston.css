@@ -1,0 +1,113 @@
+*{
+    
+}
+body{
+    background-color: white;
+}
+#nav{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(218, 170, 187);
+    padding-left:2%;
+    height:5em;
+    z-index:1800;
+}
+#sidenav-overlay{
+    left: 300px;
+}
+#slogan{
+    padding-top:1.8em;
+    margin:0;
+}
+@media (max-width: 992px) {
+  #slogandiv {
+    text-align: center;
+    padding-right:4.5em;
+  }
+}
+#nav ul li a{
+    height: 5em;
+    padding-top:0.4em;
+}
+#main{
+    font-family: 'The Girl Next Door', cursive;
+    background-color:white;
+    color:#212121;
+    text-align:center;
+    padding-top:10vh;
+    margin-right:16%;
+    margin-left:16%;
+}
+#main h4{
+    color:#212121;
+}
+#main p{
+    font-size: 2.5vh;
+}
+#main h1{
+    font-size:10vh;
+    font-family: 'Handlee', cursive;
+}
+#slogan2{
+    color:#757575;
+}
+#main h1{
+    margin:0;
+}
+#logo{
+    padding-bottom:3vh;
+}
+#logo img{
+    height:22vh;
+}
+#slideshow{
+    height:55vh;
+}
+.slider{
+    z-index:1;
+    padding-bottom:10vh;
+    padding-left:15%;
+    padding-right:15%;
+}
+.slider .slides li{
+    height:50vh;
+}
+.slider .slides{
+    background-color:white;
+}
+.slider .slides li img {
+    background-size:70% auto;
+    background-repeat: no-repeat;
+    background-color:white;
+}
+#mission{
+    text-align:left;
+    padding-top:6em;
+}
+#mission h4{
+    margin:0;
+}
+#missiontitle{
+    padding-bottom:4vh;
+    padding-left:0;
+}
+#mission img{
+    padding-right:5%;
+    padding-left:0;
+    padding-bottom:3vh;
+    
+}
+#mission p{
+}
+footer.page-footer{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(218, 170, 187);
+}
+#learnmore{
+    padding-bottom:9vh;
+}
+.btn-large{
+    background-color:rgb(218, 170, 187);
+}
+.btn-large:hover{
+    background-color:rgb(218, 170, 187);
+}
