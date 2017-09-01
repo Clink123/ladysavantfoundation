@@ -43,12 +43,12 @@ body{
 #collablogo {
     width: 40%;
     height: auto;
-    padding-left: 5%;
     padding-top: 2vh;
 }
 
 #collab {
     margin-right: 7%;
+    margin-left:7%;
     margin-bottom:5vh;
 }
 #desc {

@@ -40,6 +40,29 @@ body{
 #main h4{
     color:#212121;
 }
+
+#celina1{
+    width:30%;
+}
+#celina2{
+    width:40%;
+}
+#celina3{
+    width:25%;
+}
+#items{
+    font-size:2.5vh;
+    text-align: left;
+    margin-left:20%;
+}
+#itemsneeded{
+    font-size:2.5vh;
+    text-align: left;
+    margin-left:10%;
+}
+
+
+
 #main p{
     font-size: 2.5vh;
 }
