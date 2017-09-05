@@ -1,5 +1,5 @@
 *{
-    
+
 }
 body{
     background-color: white;
@@ -61,6 +61,19 @@ body{
     margin-left:10%;
 }
 
+#aurora{
+  width:111%;
+}
+#aurora1{
+  width:45%;
+}
+#burke{
+    width:100%;
+    
+}
+#burke1{
+    width:30%;
+}
 
 
 #main p{
@@ -117,7 +130,7 @@ body{
     padding-right:5%;
     padding-left:0;
     padding-bottom:3vh;
-    
+
 }
 #mission p{
 }
