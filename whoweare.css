@@ -48,6 +48,11 @@ h3{
     text-align: left;
     padding-bottom:3vh;
 }
+
+.person .row img{
+    margin-right:1.2%;
+}
+
 .card{
     text-align:left;
 }
