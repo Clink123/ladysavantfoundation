@@ -17,11 +17,35 @@ body{
     padding-top:1.8em;
     margin:0;
 }
-@media (max-width: 992px) {
-  #slogandiv {
-    text-align: center;
-    padding-right:4.5em;
-  }
+@media (max-width: 1280px) {
+    #slogandiv {
+        text-align: center;
+        padding-right:4em;
+    }
+    nav .brand-logo {
+        text-align: center;
+    }
+    #nav-mobile a{
+        display:none;
+    }
+    nav a.button-collapse{
+        display: unset;
+    }
+    nav .brand-logo {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+@media (max-width: 673px) {
+    #slogandiv {
+        display:none; 
+    }
+    nav .brand-logo {
+        text-align: center;
+        font-size: 4.2vw;
+        padding-top: 1vh;
+    }
 }
 #nav ul li a{
     height: 5em;
