@@ -1,1 +1,10 @@
-ErrorDocument 404 http://ladysavantfoundation.com/404page.html
+ErrorDocument 404 https://www.ladysavantfoundation.com/404page.html
+
+# redirect http://www.example.com to https://www.example.com
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# redirect http(s)://example.com to https://www.example.com
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
