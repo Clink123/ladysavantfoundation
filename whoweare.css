@@ -9,7 +9,7 @@ body{
     background-color: rgb(218, 170, 187);
     padding-left:2%;
     height:5em;
-    z-index:1800;
+    z-index://www.ladysavantfoundation.com:1800;
 }
 #sidenav-overlay{
     left: 300px;
